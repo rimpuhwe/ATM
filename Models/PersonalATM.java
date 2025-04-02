@@ -14,6 +14,7 @@ public class PersonalATM {
             System.out.println( "$"+ amount + "  deposited  to your account ");
         }
 
+
     }
     public void withdraw(double amount) {
         if (amount > balance) {
